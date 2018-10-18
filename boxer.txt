@@ -1,0 +1,20 @@
+package activity;
+import activity.SingularlyLinkedList;
+public class boxer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SingularlyLinkedList<String> boxers= new SingularlyLinkedList <String>();
+		
+		boxers.addFirst("Crawford");
+		boxers.addFirst("Pagara");
+		boxers.addFirst("Maidana");
+		boxers.addFirst("Pacman");
+		
+		System.out.println("size : " + boxers.size());
+		
+	}
+
+}
+ 
+
